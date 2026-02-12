@@ -1,0 +1,8 @@
+{
+  "name": "StudyGenie AI",
+  "description": "An intelligent, adaptive learning platform that transforms passive studying into measurable skill progression using active recall, spaced repetition, and gamified mastery tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
