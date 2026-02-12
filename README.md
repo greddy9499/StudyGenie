@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+StudyGenie AI – Adaptive Multimodal Learning Intelligence System
 
-# Run and deploy your AI Studio app
+StudyGenie AI is an adaptive learning platform that transforms passive studying into measurable skill progression. The system ingests PDFs and lecture videos, converts them into structured knowledge, and applies AI-driven assessments to track concept mastery, retention, and growth.
 
-This contains everything you need to run your app locally.
+Unlike traditional note generators, StudyGenie focuses on cognitive improvement. It integrates active recall, adaptive difficulty scaling, and a LevelUp progression engine to help students identify weak concepts, prevent forgetting, and improve long-term retention.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1SDuK23TBJrgDrobXe4zpN1_Y36lNqf7-
+Key Features • PDF and video ingestion with structured knowledge extraction • Automatic quiz generation based on concepts • Weak-topic detection at concept level • Forgetting-curve inspired smart revision planner • LevelUp AI engine with XP-based mastery tracking • Skill metrics: accuracy, retention, speed, consistency • Concept heat map and growth dashboard
 
-## Run Locally
+Architecture Overview
 
-**Prerequisites:**  Node.js
+The system follows a layered architecture:
 
+User Layer – Upload, Quiz Interface, Dashboard
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Processing Layer – Content extraction and semantic structuring
+
+Intelligence Engine – Adaptive quizzes, mastery tracking, revision logic
+
+Data Layer – Vector database, embeddings, performance analytics
+
+Tech Stack
+
+Frontend: React / Next.js Backend: FastAPI AI: LLM-based summarization, quiz generation, embeddings Database: Vector DB + Performance store
+
+Vision
+
+StudyGenie AI aims to bridge the gap between content consumption and skill mastery by combining artificial intelligence with cognitive science principles. The platform promotes structured, measurable, and ethical learning.
